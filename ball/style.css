@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: rgb(66, 62, 62);
+    box-sizing: border-box;
+
+}
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: darkgreen;
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(57, 62, 105);
+    border-radius: 2%
+}
+
+#ball {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    background: red;
+    width: 20px;
+    height: 20px;
+    border: .1 solid black;
+    border-radius: 50%
+}

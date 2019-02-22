@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DrumKit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="audiosrc">
+            <audio src="sound/boom.wav" controls id="boom"></audio>
+            <audio src="sound/clap.wav" controls id="clap"></audio>
+            <audio src="sound/hihat.wav" controls id="hihat"></audio>
+            <audio src="sound/kick.wav" controls id="kick"></audio>
+            <audio src="sound/openhat.wav" controls id="openhat"></audio>
+            <audio src="sound/ride.wav" controls id="ride"></audio>
+            <audio src="sound/snare.wav" controls id="snare"></audio>
+            <audio src="sound/tink.wav" controls id="tink"></audio>
+            <audio src="sound/tom.wav" controls id="tom"></audio>
+        </div>
+        <div class="btns-music">
+            <button class="btn-music" value="boom">A</button>
+            <button class="btn-music" value="clap">S</button>
+            <button class="btn-music" value="hihat">D</button>
+            <button class="btn-music" value="kick">F</button>
+            <button class="btn-music" value="openhat">G</button>
+            <button class="btn-music" value="ride">H</button>
+            <button class="btn-music" value="snare">J</button>
+            <button class="btn-music" value="tink">K</button>
+            <button class="btn-music" value="tom">L</button>
+        </div>
+        <div class="btnCon">
+            <button class="btns-con" id="rec">Nagrywaj</button>
+            <button class="btns-con" id="play">Odtwarzaj</button>
+        </div>
+
+        <div class="channels">
+            <div><input type="radio" name="channel" value="ch1" checked> Channel 1</div>
+            <div><input type="radio" name="channel" value="ch2"> Channel 2</div>
+            <div><input type="radio" name="channel" value="ch3"> Channel 3</div>
+            <div><input type="radio" name="channel" value="ch4"> Channel 4</div>
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
